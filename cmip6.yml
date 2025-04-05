@@ -1,0 +1,22 @@
+name: cmip6
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - aiohttp
+  - cartopy=0.21.1
+  - cf_xarray
+  - gcsfs
+  - intake-esm
+  - jupyter
+  - metpy
+  - netcdf4
+  - numpy
+  - pandas
+  - proplot=0.9.7
+  - python=3.9.13
+  - scipy
+  - xarray
+  - xesmf
+  - xmip
+prefix: /opt/miniconda3/envs/cmip6
